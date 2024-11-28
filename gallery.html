@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+   
+    .gallery img {
+      border: 2px solid #007bff; /* Blue border around images */
+      border-radius: 10px; /* Rounded corners for a smooth look */
+      transition: transform 0.3s, box-shadow 0.3s; /* Adds hover effects */
+    }
+
+    /* Add spacing between images */
+    .gallery .col-md-4 {
+      margin-bottom: 20px; /* Space below each image */
+    }
+
+    /* Hover effect for images */
+    .gallery img:hover {
+      transform: scale(1.05); /* Slight zoom-in effect */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow on hover */
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container my-5 gallery">
+    <h2 class="text-center mb-4">Gallery</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <a href="https://github.com/HasanJuned/My_Portfolio" target="_blank">
+          <img src="assets/project 1.jpeg" class="img-fluid" alt="My Portfolio">
+        </a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <a href="https://github.com/HasanJuned/Task-Manager-Backend" target="_blank">
+          <img src="assets/project 2.jpeg" class="img-fluid" alt="Task Manager Backend">
+        </a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <a href="https://github.com/HasanJuned/E_Commerce_Backend" target="_blank">
+          <img src="assets/project 1.jpeg" class="img-fluid" alt="E-Commerce Backend">
+        </a>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="col-md-4">
+        <a href="https://github.com/HasanJuned/CRUD" target="_blank">
+          <img src="assets/project 2.jpeg" class="img-fluid" alt="CRUD">
+        </a>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="col-md-4">
+        <a href="https://github.com/HasanJuned/Crafty_Bay" target="_blank">
+          <img src="assets/project 1.jpeg" class="img-fluid" alt="Crafty Bay">
+        </a>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="col-md-4">
+        <a href="https://github.com/HasanJuned/task_manager" target="_blank">
+          <img src="assets/project 2.jpeg" class="img-fluid" alt="Task Manager">
+        </a>
+      </div>
+
+      <!-- Project 7 -->
+      <div class="col-md-4">
+        <a href="https://github.com/HasanJuned/food_app" target="_blank">
+          <img src="assets/project 1.jpeg" class="img-fluid" alt="Food App">
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

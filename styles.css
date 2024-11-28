@@ -1,0 +1,63 @@
+/* Hero Section Styling */
+.hero-section {
+  background-color: #343a40; /* Dark background color */
+  padding: 3rem 0;
+}
+
+.hero-title {
+  font-size: 6rem; /* Default size for larger screens */
+}
+
+.hero-subtitle {
+  font-size: 2rem; /* Default size for larger screens */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 1.75rem; /* Reduce title size for smaller screens */
+  }
+  .hero-subtitle {
+    font-size: 1rem; /* Reduce subtitle size for smaller screens */
+  }
+}
+
+/* Sidebar Links Styling */
+.sidebar ul li a {
+  text-decoration: none; /* Removes the underline from links */
+  color: #007bff; /* Sets the link color to a blue shade */
+}
+
+/* Sidebar Links Hover Effect */
+.sidebar ul li a:hover {
+  color: #0056b3; /* Changes the link color to a darker blue */
+  text-decoration: underline; /* Adds an underline to the link */
+}
+
+/* Footer Styling */
+footer {
+  position: sticky; /* Makes the footer stick to the bottom of the viewport when scrolling */
+  bottom: 0; /* Aligns the footer to the bottom */
+  width: 100%; /* Makes the footer span the full width of the page */
+}
+
+/* Card Title Styling */
+.card-title {
+  color: #007bff; /* Sets the card title color to blue */
+}
+
+/* Card Title Hover Effect */
+.card-title:hover {
+  text-decoration: underline; /* Underlines the text when hovered */
+}
+
+/* Carousel Caption Styling */
+.carousel-caption h5 {
+  font-size: 1.5rem; /* Sets the font size for the caption's heading */
+  font-weight: bold; /* Makes the caption's heading bold */
+}
+
+/* Carousel Caption Paragraph Styling */
+.carousel-caption p {
+  font-size: 1rem; /* Sets the font size for the paragraph */
+}
